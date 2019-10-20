@@ -1,27 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Hello!</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>  
-  <body>
-    <h1>Hi there!</h1>
-    
-    <p>
-      I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>!
-    </p>
+<html><head>
+<title>NitroGen</title>
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta property="og:type" content="website">
+<meta property="og:title" content="NitroGen">
+<meta property="og:description" content="Discord Nitro Generator">
+<meta property="og:url" content="http://sitesgithub.github.io/nitro/index.html">
+<meta property="og:image" content="https://images.discordapp.net/avatars/482584715673600026/3813e13cf3e89eb5ab314dcda58f5d96.png?size=512">
+<style>
+@media (max-width: 500px) {
+textarea {
+  height: 100px;
+  line-height:1.25;
+}
+button {
+	background-color:#000000;
+	cursor:pointer;
+	color:#00ff00;
+	font-family:Arial;
+	font-size:50px;
+	padding:50px 60px;
+	text-decoration:none;
+}
+}
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js"></script>
-  </body>
-</html>
+.button0 {
+  font-size:20px;
+  padding:50px 60px;
+}
+</style>
+</head>
+<body>
+<style>
+  textarea {
+    background-color: #000;
+    border: 1px solid #000;
+    color: #00ff00;
+    padding: 8px;
+    font-family: courier new;
+}
+
+body {
+    background-color: #000;
+}
+
+input {
+    background-color: #000;
+    color: #00ff00;
+}
+
+button {
+	background-color:#000000;
+	cursor:pointer;
+	color:#00ff00;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 8px;
+	text-decoration:none;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+</style>
+<div>
+<h1 style="font-family: Roboto; color: #00ff00">DISCORD NITRO OLUŞTURUCU</h1>
+<textarea id="a" rows="11" cols="100" readonly="" style="resize: none;">İzlediğiniz İçin Teşekkür Ederiz!
+  
+―――――――――――――――――――――――――――――――――――――――
+[BILGI] Discord Nitro Oluşturucu
+[BILGI] Discord Nitro Kodları Burada!
+[BILGI] Kodlardan Bazıları Çalışmaktadır.
+―――――――――――――――――――――――――――――――――――――――
+
+</textarea>
+<p></p>
+<p></p>
+<p style="font-family: Arial; color: #00ff00">Oluşturulacak Nitro Kodu Sayısı</p>
+<input type="text" id="speed" value="5">
+<p></p>
+<button id="generate" class="button">
+  Başlat!
+</button>
+
+<button id="stop" class="button">
+  Durdur!
+</button>
+    
+<button onclick="stop(); document.getElementById('a').value = 'İzlediğiniz İçin Teşekkür Ederiz!\n\n―――――――――――――――――――――――――――――――――――――――\n[BILGI] Discord Nitro Oluşturucu\n[BILGI] Discord Nitro Kodları Burada!\n[BILGI] Kodlardan Bazıları Çalışmaktadır.\n―――――――――――――――――――――――――――――――――――――――\n\n'; document.getElementById('b').value = '';" class="button" id="clear">Kodları Temizle</button>
+<textarea style="display: none;" id="b" rows="11" cols="100" readonly=""></textarea>
+	<script src="main.js"></script>
+</div>
+	<p></p>
+
+
+</body></html>
