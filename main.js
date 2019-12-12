@@ -26,10 +26,10 @@ var triesPerSecond = document.getElementById('speed').value //self explanatory
 getGiftCode = function () {
     let code = '';
     let dict = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
-    for(var i = 0; i < 24; i++){
+    for(var i = 0; i < 59; i++){
         code = code + dict.charAt(Math.floor(Math.random() * dict.length));
     }
-    console.log('http://discord.gift/' + code + "\n");
+    console.log('N' + code + "\n");
     code += '\n'
     document.getElementById('b').value += code;
 
@@ -42,7 +42,7 @@ function stop() {
   clearInterval(gInterval);
   clearInterval(interval)
 } //stop generating and stop console scroll loop
-var gInterval = setInterval(() => {getGiftCode();}, (1/triesPerSecond) * -100000);
+var gInterval = setInterval(() => {getGiftCode();}, (500/triesPerSecond) * 1);
 //repeat making codes
 
 function scroll() {
