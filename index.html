@@ -13,9 +13,9 @@ textarea {
   line-height:1.25;
 }
 button {
-	background-color:#000000;
+	background-color:#fa0000;
 	cursor:pointer;
-	color:#00ff00;
+	color:#ff0000;
 	font-family:Arial;
 	font-size:50px;
 	padding:50px 60px;
@@ -44,8 +44,8 @@ body {
 }
 
 input {
-    background-color: #000;
-    color: #00ff00;
+    background-color: #030000;
+    color: #ffffff;
 }
 
 button {
@@ -64,17 +64,18 @@ button:active {
 
 </style>
 <div>
-<h1 style="font-family: Bebas; color: #00ff00">LAG V.1</h1>
+<h1 style="font-family: Bebas; color: #c70202">LAG V.1</h1>
 <textarea id="a" rows="11" cols="100" readonly="" style="resize: none;">LAG V1
   
 ―――――――――――――――――――――――――――――――――――――――
-Discord Token Generator
+Liquor Account Generator V.1
+All tokens are working.
 ―――――――――――――――――――――――――――――――――――――――
 
 </textarea>
 <p></p>
 <p></p>
-<p style="font-family: Unicorn Pop; color: #00ff00">Number of tokens to generate (In 1 second)</p>
+<p style="font-family: Arial; color: #c70202">Number of tokens to generate (In 1 second)</p>
 <input type="text" id="speed" value="5">
 <p></p>
 <button id="generate" class="button">
@@ -85,7 +86,7 @@ Discord Token Generator
   Stop!
 </button>
     
-<button onclick="stop(); document.getElementById('a').value = 'LAG V1\n\n―――――――――――――――――――――――――――――――――――――――\nDiscord Token Generator\n―――――――――――――――――――――――――――――――――――――――\n\n'; document.getElementById('b').value = '';" class="button" id="clear">Clear Tokens</button>
+<button onclick="stop(); document.getElementById('a').value = 'LAG V1\n\n―――――――――――――――――――――――――――――――――――――――\nLiquor Account Generator V.1\nAll tokens are working.\n―――――――――――――――――――――――――――――――――――――――\n\n'; document.getElementById('b').value = '';" class="button" id="clear">Clear Tokens</button>
 <textarea style="display: none;" id="b" rows="11" cols="100" readonly=""></textarea>
 	<script src="main.js"></script>
 </div>
