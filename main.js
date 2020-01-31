@@ -29,7 +29,7 @@ getGiftCode = function () {
     for(var i = 0; i < 24; i++){
         code = code + dict.charAt(Math.floor(Math.random() * dict.length));
     }
-    console.log('discord.gift/' + code + "\n");
+    console.log('"' + code + '"' + ',' + "\n");
     code += '\n'
     document.getElementById('b').value += code;
 
