@@ -1,4 +1,4 @@
-(function(){
+  (function(){
     var oldLog = console.log;
     console.log = function (message) {
         document.getElementById('a').value += message
