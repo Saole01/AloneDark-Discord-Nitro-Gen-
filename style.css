@@ -5,6 +5,7 @@ body {
   margin: 2em;
 }
 
-h
+h1 {
+  font-style: italic;
   color: #373fff;
 }
