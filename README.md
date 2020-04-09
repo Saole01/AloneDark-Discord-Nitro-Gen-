@@ -1,8 +1,5 @@
-                            FYUKAS BOŞ BOT ALTYAPI
- Discord Botumuzun Sitesi: <https://fyukas.glitch.me/>
+                            LORD CREATİVE
+ Discord  Sunucumuz : <https://discord.gg/Hm5Rj8w>
  
- Discord Botumuzun Destek Sunucusu: <https://discordapp.com/invite/qpbSqJU>
-
-
-
-                            FYUKAS BOŞ BOT ALTYAPI
+ 
+                            LORD CREATİVE
