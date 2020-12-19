@@ -1,5 +1,6 @@
-                            LORD CREATİVE
- Discord  Sunucumuz : <https://discord.gg/Hm5Rj8w>
- 
- 
-                            LORD CREATİVE
+||ALONE DARK YOUTUBE||
+
+Discord Sunucumuz: https://discord.gg/DJk7Z2kDZg
+
+
+Gelmeyi Unutmayın :))
